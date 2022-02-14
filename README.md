@@ -26,7 +26,7 @@ $ git clone https://github.com/wolfdev1/DiscordBotTemplate
 
 The only thing you need is to go to the main 
 package and enter the Config.java file and modify
-the GUILD_ID and the BOT_TOKEN
+the GUILD_ID and the BOT_TOKEN, then they should only start the Bot.java class
 
 ```java
 public class Config {
