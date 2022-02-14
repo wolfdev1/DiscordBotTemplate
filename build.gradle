@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group 'wolfdev1.com.github'
+version '1.0-RELEASE'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation("ch.qos.logback:logback-classic:1.2.8")
+    implementation("net.dv8tion:JDA:5.0.0-alpha.5")
+}
+
+test {
+    useJUnitPlatform()
+}
